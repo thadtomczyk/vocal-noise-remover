@@ -35,7 +35,7 @@ The implementation uses `librosa`, `numpy`, and `soundfile` for the core signal 
 ---
 
 ## Instructions
-1. Place your audio file in the project directory (e.g., `input.wav`).
+1. Place your audio file in the project directory (under the name `input.wav`).
 2. Run:
    ```bash
    python main.py

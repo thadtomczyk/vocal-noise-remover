@@ -30,7 +30,7 @@ The implementation uses `librosa`, `numpy`, and `soundfile` for the core signal 
 - `numpy`
 - `scipy`
 - `soundfile`
-- `matplotlib` (for visualization)
+- `matplotlib`
 
 ---
 

@@ -17,8 +17,8 @@ The implementation uses `librosa`, `numpy`, and `soundfile` for the core signal 
 ## How It Works
 1. Load a mono WAV file using `librosa`.
 2. Compute the magnitude and phase via STFT.
-3. Estimate a **noise floor** from quiet portions of the spectrum (using a percentile-based threshold).
-4. Build a **gain mask** that attenuates bins close to that noise floor.
+3. Estimate a noise floor from quiet portions of the spectrum (using a percentile-based threshold).
+4. Build a gain mask that attenuates bins close to that noise floor.
 5. Apply optional smoothing across time to reduce musical noise.
 6. Reconstruct the cleaned signal using the inverse STFT and write to disk.
 
